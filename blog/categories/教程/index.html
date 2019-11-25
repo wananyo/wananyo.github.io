@@ -41,7 +41,7 @@
   
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.9.6/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
   
 
   <script>
@@ -96,11 +96,11 @@
         </li>
       
         <li>
-          <a class="nav home" href="/projects/"
+          <a class="nav home" href="/cinema/"
             
             
-            id="projects">
-            <i class='fas fa-code-branch fa-fw'></i>&nbsp;项目
+            id="cinema">
+            <i class='fas fa-film fa-fw fa-fw'></i>&nbsp;影院
           </a>
         </li>
       
@@ -112,6 +112,17 @@
             
             id="friends">
             <i class='fas fa-link fa-fw'></i>&nbsp;友链
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/tellme/"
+            
+              rel="nofollow"
+            
+            
+            id="tellme">
+            <i class='fas fa-comments fa-fw fa-fw'></i>&nbsp;留言
           </a>
         </li>
       
@@ -319,6 +330,14 @@
           
         
           
+        
+          
+        
+          
+        
+          
+        
+          
             <div class='post-wrapper'>
               <article class="post reveal ">
   
@@ -421,14 +440,6 @@
             </div>
           
         
-          
-        
-          
-        
-          
-        
-          
-        
       
     
     
@@ -513,6 +524,98 @@
       <div class="full-width auto-padding tags">
         
           <a href="/blog/tags/tips/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> tips</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/example/自定义meta信息/">
+      自定义meta信息
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    
+      <a href="http://wananyo.github.io" rel="nofollow">
+        
+          <i class="fas fa-user" aria-hidden="true"></i>
+        
+        <p>Ryan</p>
+      </a>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-09-09T14:31:42+08:00">
+  <a class='notlink'>
+    <i class="fas fa-clock" aria-hidden="true"></i>
+    <p>更新于 2019年9月9日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>现在你可以在文章开头和末尾放置任意支持的meta标签，支持的标签有：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title</span><br><span class="line">author</span><br><span class="line">date</span><br><span class="line">updated</span><br><span class="line">categories</span><br><span class="line">tags</span><br><span class="line">counter</span><br><span class="line">top</span><br></pre></td></tr></table></figure></p>
+<p>例如本文：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">自定义meta信息</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-04</span><span class="bullet">-06</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">ss</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  header:</span> <span class="string">[title,</span> <span class="string">author,</span> <span class="string">updated,</span> <span class="string">counter]</span></span><br><span class="line"><span class="attr">  footer:</span> <span class="string">[categories,</span> <span class="string">tags,</span> <span class="string">share]</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>如果不写，就按照主题配置文件中的显示。<br>如果不想显示任何meta标签，就写<code>false</code>，例如关于页面：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">关于</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  header:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  footer:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">有什么想对我说的呢？</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+      
+        <div class="readmore">
+          <a href="/example/自定义meta信息/" class="flat-box">
+            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/blog/tags/ss/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> ss</a>
         
       </div>
     
@@ -730,8 +833,8 @@
       
         
   <h2 class="title">
-    <a href="/example/自定义meta信息/">
-      自定义meta信息
+    <a href="/example/摘要注意事项/">
+      摘要注意事项
     </a>
   </h2>
 
@@ -758,12 +861,25 @@
           
         
           
-            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-09-09T14:31:42+08:00">
+            <div class="new-meta-item date">
   <a class='notlink'>
-    <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>更新于 2019年9月9日</p>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-12-30</p>
   </a>
 </div>
+
+          
+        
+          
+            
+  
+  <div class='new-meta-item category'>
+    <a href='/blog/categories/教程/' rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>教程</p>
+    </a>
+  </div>
+
 
           
         
@@ -782,14 +898,11 @@
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>现在你可以在文章开头和末尾放置任意支持的meta标签，支持的标签有：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title</span><br><span class="line">author</span><br><span class="line">date</span><br><span class="line">updated</span><br><span class="line">categories</span><br><span class="line">tags</span><br><span class="line">counter</span><br><span class="line">top</span><br></pre></td></tr></table></figure></p>
-<p>例如本文：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">自定义meta信息</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-04</span><span class="bullet">-06</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">ss</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  header:</span> <span class="string">[title,</span> <span class="string">author,</span> <span class="string">updated,</span> <span class="string">counter]</span></span><br><span class="line"><span class="attr">  footer:</span> <span class="string">[categories,</span> <span class="string">tags,</span> <span class="string">share]</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-<p>如果不写，就按照主题配置文件中的显示。<br>如果不想显示任何meta标签，就写<code>false</code>，例如关于页面：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">关于</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  header:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  footer:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">有什么想对我说的呢？</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+      <p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="bullet">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
       
         <div class="readmore">
-          <a href="/example/自定义meta信息/" class="flat-box">
+          <a href="/example/摘要注意事项/" class="flat-box">
             <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
             阅读全文
           </a>
@@ -797,18 +910,10 @@
       
     </div>
     
-      <div class="full-width auto-padding tags">
-        
-          <a href="/blog/tags/ss/" rel="nofollow"><i class="fas fa-tag fa-fw"></i> ss</a>
-        
-      </div>
-    
   </section>
 </article>
 
           </div>
-        
-      
         
       
         
@@ -1012,117 +1117,7 @@
 
   <section class='meta'>
     
-    
-    <div class="meta" id="header-meta">
       
-        
-  <h2 class="title">
-    <a href="/example/摘要注意事项/">
-      摘要注意事项
-    </a>
-  </h2>
-
-
-      
-      <div class='new-meta-box'>
-        
-          
-        
-          
-            
-  <div class='new-meta-item author'>
-    
-      <a href="http://wananyo.github.io" rel="nofollow">
-        
-          <i class="fas fa-user" aria-hidden="true"></i>
-        
-        <p>Ryan</p>
-      </a>
-    
-  </div>
-
-
-          
-        
-          
-            <div class="new-meta-item date">
-  <a class='notlink'>
-    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2018-12-30</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  
-  <div class='new-meta-item category'>
-    <a href='/blog/categories/教程/' rel="nofollow">
-      <i class="fas fa-folder-open" aria-hidden="true"></i>
-      <p>教程</p>
-    </a>
-  </div>
-
-
-          
-        
-          
-            
-
-          
-        
-      </div>
-      
-        <hr>
-      
-    </div>
-  </section>
-
-
-  <section class="article typo">
-    <div class="article-entry" itemprop="articleBody">
-      <p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="bullet">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
-      
-        <div class="readmore">
-          <a href="/example/摘要注意事项/" class="flat-box">
-            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-    
-  </section>
-</article>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <article class="post reveal ">
-  
-
-
-  <section class='meta'>
-    
-      
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
-  <div class="aplayer"
-    data-theme=""
-    data-mini=true 
-    data-autoplay=true 
-    data-mode="circulation"
-    data-server="netease"
-    data-type="song"
-    data-id="26664345"
-    data-volume="0.7">
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-
 
     
     
@@ -1213,6 +1208,8 @@
           </div>
         
       
+        
+      
     
   </section>
   
@@ -1245,6 +1242,15 @@
         <img class='avatar' src='http://q1b3bgbv6.bkt.clouddn.com/p1.jpg'/>
       </div>
     
+    
+      <div class='text'>
+        
+        
+        
+          <p><span id="jinrishici-sentence">醉后不知天在水，满船清梦压星河</span></p>
+          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        
+      </div>
     
     
       <div class="social-wrapper">
@@ -1555,11 +1561,7 @@
     <div class='content pure'>
       <ul class="entry">
         
-          <li><a class="flat-box" title="/blog/categories/Dev/" href="/blog/categories/Dev/"><div class='name'>Dev</div><div class='badge'>(3)</div></a></li>
-        
-          <li><a class="flat-box child" title="/blog/categories/Dev/Hexo/" href="/blog/categories/Dev/Hexo/"><div class='name'>Hexo</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box child" title="/blog/categories/Dev/Shell-Scripts/" href="/blog/categories/Dev/Shell-Scripts/"><div class='name'>Shell Scripts</div><div class='badge'>(1)</div></a></li>
+          <li><a class="flat-box" title="/blog/categories/个人收藏/" href="/blog/categories/个人收藏/"><div class='name'>个人收藏</div><div class='badge'>(1)</div></a></li>
         
           <li><a class="flat-box" title="/blog/categories/教程/" href="/blog/categories/教程/"><div class='name'>教程</div><div class='badge'>(9)</div></a></li>
         
@@ -1615,7 +1617,7 @@
 </header>
 
     <div class='content pure'>
-      <a href="/blog/tags/Hexo/" style="font-size: 24px; color: #555">Hexo</a> <a href="/blog/tags/shell/" style="font-size: 24px; color: #555">shell</a> <a href="/blog/tags/ss/" style="font-size: 14px; color: #999">ss</a> <a href="/blog/tags/tips/" style="font-size: 14px; color: #999">tips</a>
+      <a href="/blog/tags/ss/" style="font-size: 14px; color: #999">ss</a> <a href="/blog/tags/tips/" style="font-size: 14px; color: #999">tips</a>
     </div>
   </section>
 
@@ -1675,6 +1677,8 @@
     </div>
   
   <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
   <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
     var now = new Date(); 
@@ -1687,7 +1691,7 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "小破站已苟活 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
 setInterval("createtime()",250);
@@ -1701,8 +1705,6 @@ setInterval("createtime()",250);
     <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-<script src="/apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="/js/jquery.pjax.min.js"></script>
 
   <script>
     var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
@@ -1752,6 +1754,30 @@ setInterval("createtime()",250);
 
 
 
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        if ('.cover') {
+          $('.cover').backstretch(
+          ["http://q1b3bgbv6.bkt.clouddn.com/photo-of-foggy-forest-1367192.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["http://q1b3bgbv6.bkt.clouddn.com/photo-of-foggy-forest-1367192.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
 
 
 
@@ -1762,10 +1788,11 @@ setInterval("createtime()",250);
 
 
 
-  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.9/js/app.js"></script>
+
+  <script src="/js/app.js"></script>
 
 
-  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.9/js/search.js"></script>
+  <script src="/js/search.js"></script>
 
 
 
@@ -1882,7 +1909,7 @@ setInterval("createtime()",250);
   <script>setLoadingBarProgress(100);</script>
   <!--动态线条背景-->
 <script type="text/javascript"
-color="239,91,156" opacity='0.7' zIndex="-2" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+color="88,94,170" opacity='0.7' zIndex="-1" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
 </script>
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/love.js"></script>
