@@ -34,18 +34,6 @@
       </tags>
   </entry>
   <entry>
-    <title>引用外部文章</title>
-    <url>/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>只需设置permalink即可：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://xaoxuu.com</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">https://xaoxuu.com/wiki/material-x/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-<p>项目分类中的均为外部文章，<a href="/projects/">前往查看</a>。</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-  </entry>
-  <entry>
     <title>支持多用户</title>
     <url>/example/%E5%A4%9A%E7%94%A8%E6%88%B7/</url>
     <content><![CDATA[<p>在博客根目录中配置的属性是默认作者：</p>
@@ -86,6 +74,26 @@
       </tags>
   </entry>
   <entry>
+    <title>引用外部文章</title>
+    <url>/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>只需设置permalink即可：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://xaoxuu.com</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">https://xaoxuu.com/wiki/material-x/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>项目分类中的均为外部文章，<a href="/projects/">前往查看</a>。</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>影院</title>
+    <url>/cinema/index/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>个人收藏</category>
+      </categories>
+  </entry>
+  <entry>
     <title>置顶：博客源码</title>
     <url>/example/top/</url>
     <content><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。</p>
@@ -95,6 +103,18 @@
 <a id="more"></a>
 
 <p><img class='emoji tieba' src='https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png'>没有更多了哦。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>摘要注意事项</title>
+    <url>/example/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="string">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -113,31 +133,11 @@
       </categories>
   </entry>
   <entry>
-    <title>影院</title>
-    <url>/cinema/index/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>个人收藏</category>
-      </categories>
-  </entry>
-  <entry>
     <title>多语言</title>
     <url>/example/%E5%A4%9A%E8%AF%AD%E8%A8%80/</url>
     <content><![CDATA[<p>在主目录找到或者新增<code>language</code>，例如：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure>
 <p>博客将按照给定的优先级显示语言。</p>
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>摘要注意事项</title>
-    <url>/example/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="string">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
-
 <a id="more"></a>
 ]]></content>
       <categories>
