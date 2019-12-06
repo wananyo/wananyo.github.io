@@ -94,18 +94,6 @@
       </categories>
   </entry>
   <entry>
-    <title>共用一个评论框</title>
-    <url>/example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</url>
-    <content><![CDATA[<p>写法示例：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/top/</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-  </entry>
-  <entry>
     <title>置顶：博客源码</title>
     <url>/example/top/</url>
     <content><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。</p>
@@ -126,6 +114,18 @@
     <content><![CDATA[<p>在主目录找到或者新增<code>language</code>，例如：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure>
 <p>博客将按照给定的优先级显示语言。</p>
+<a id="more"></a>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>共用一个评论框</title>
+    <url>/example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</url>
+    <content><![CDATA[<p>写法示例：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/top/</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
 <a id="more"></a>
 ]]></content>
       <categories>
