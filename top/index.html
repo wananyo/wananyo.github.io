@@ -114,15 +114,15 @@
 
 
 
-<meta name="description" content="博客文章阅读量排行榜">
+<meta name="description" content="AV.initialize(&quot;19YOmJ7vxXgeKQtjIciISJA2-MdYXbMMI&quot;, &quot;iTW1JuwlKTovLR2e6clq6jxr&quot;);  var time = 0, title = &quot;&quot;, url = &quot;&quot;, emoji = [&quot;🍇&quot;, &quot;🍈&quot;, &quot;🍉&quot;, &quot;🍋&quot;, &quot;🍎&quot;, &quot;🍏&quot;, &quot;🍐&quot;, &quot;🥝&quot;, &quot;🍓&quot;, &quot;🍄&quot;, &quot;🥦&quot;, &quot;🍍&quot;,">
 <meta name="keywords" content="top,文章阅读量排行榜">
 <meta property="og:type" content="website">
 <meta property="og:title" content="博客热门文章">
 <meta property="og:url" content="http:&#x2F;&#x2F;wananyo.github.io&#x2F;top&#x2F;index.html">
 <meta property="og:site_name" content="Ryan’s Blog">
-<meta property="og:description" content="博客文章阅读量排行榜">
+<meta property="og:description" content="AV.initialize(&quot;19YOmJ7vxXgeKQtjIciISJA2-MdYXbMMI&quot;, &quot;iTW1JuwlKTovLR2e6clq6jxr&quot;);  var time = 0, title = &quot;&quot;, url = &quot;&quot;, emoji = [&quot;🍇&quot;, &quot;🍈&quot;, &quot;🍉&quot;, &quot;🍋&quot;, &quot;🍎&quot;, &quot;🍏&quot;, &quot;🍐&quot;, &quot;🥝&quot;, &quot;🍓&quot;, &quot;🍄&quot;, &quot;🥦&quot;, &quot;🍍&quot;,">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-12-06T05:49:13.345Z">
+<meta property="og:updated_time" content="2019-12-06T10:02:12.758Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -353,10 +353,6 @@
 	<h2 class="post-title" itemprop="name headline">博客热门文章</h2>
 
 
-	<div class="post-meta">
-		<div class="post-description">博客文章阅读量排行榜</div>
-	</div>
-
 
 </header>
 
@@ -386,7 +382,7 @@ query.find().then(function(t) {
         title = n.title,
         url = n.url;
         var i = emoji[Math.floor(Math.random() * emoji.length)];
-        var content = "<div class='top-block'>【 " + i + " 热度：" + time + " ℃ 】&nbsp;&nbsp;<a href='"+"https://xiaolee.icu"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font></div>";
+        var content = "<div class='top-block'>【 " + i + " 热度：" + time + " ℃ 】&nbsp;&nbsp;<a href='"+"https://xiaolee.icu"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'></font></div>";
         document.getElementById("top").innerHTML += content
     }
 },
@@ -396,7 +392,82 @@ function(t) {
 })
 </script>
 
-<style>.post-description { display: none; }</style>
+<style>
+
+.container .main-inner {
+    width: 1000px
+}
+
+@media (max-width:767px) {
+    body {
+        background-image: none!important
+    }
+}
+
+@media(min-width:1000px) {
+    .main {
+        padding-bottom: 150px;
+        margin-top: -20px;
+        background-image: url(https://bestzuo.cn/images/background/top-bk.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat
+    }
+}
+
+.site-meta .site-title {
+    color: #fff
+}
+
+body {
+    background-image: unset;
+    background-attachment: fixed;
+    background-size: 100%
+}
+
+.page-post-detail .post-meta,.page-post-detail .post-title {
+    padding-top: 50px
+}
+
+.header {
+    border-bottom: unset
+}
+
+.content-wrap {
+    background: #fff
+}
+
+.footer {
+    background-color: #12121200!important
+}
+
+.post-body a {
+    color: #3160d1fa border-bottom: none;
+    text-decoration: none
+}
+
+
+
+.top-block {
+    font-size: 1.2em;
+    margin-bottom: 15px
+}
+
+
+#top {
+    text-align: left
+}
+
+
+a:link {
+    color: #487cf6;
+    font-size: 1.1em}
+a:visited {color:#487cf6;}
+a:hover {
+    color:red;
+}
+
+</style>
 
 
 
