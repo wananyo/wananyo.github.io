@@ -63,6 +63,29 @@
   </entry>
   
   <entry>
+    <title>引用外部文章</title>
+    <link href="http://wananyo.github.io/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/"/>
+    <id>http://wananyo.github.io/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/</id>
+    <published>2019-04-05T16:00:00.000Z</published>
+    <updated>2019-12-05T09:50:28.092Z</updated>
+    
+    <content type="html"><![CDATA[<p>只需设置permalink即可：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://xaoxuu.com</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">https://xaoxuu.com/wiki/material-x/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>项目分类中的均为外部文章，<a href="/projects/">前往查看</a>。</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只需设置permalink即可：&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;author:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;xaoxuu&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;avatar:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;url:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://xaoxuu.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;permalink:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://xaoxuu.com/wiki/material-x/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;项目分类中的均为外部文章，&lt;a href=&quot;/projects/&quot;&gt;前往查看&lt;/a&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wananyo.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>支持多用户</title>
     <link href="http://wananyo.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/"/>
     <id>http://wananyo.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/</id>
@@ -81,29 +104,6 @@
 
 &lt;p&gt;写法示例：&lt;/p&gt;
 &lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;type:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;blog&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;title:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;支持多用户&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;author:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;xaoxuu&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;avatar:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;url:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://xaoxuu.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;date:&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;2019&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-04&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-06&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;categories:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;教程&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;valine:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;path:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;/top/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="教程" scheme="http://wananyo.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>引用外部文章</title>
-    <link href="http://wananyo.github.io/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/"/>
-    <id>http://wananyo.github.io/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/</id>
-    <published>2019-04-05T16:00:00.000Z</published>
-    <updated>2019-12-05T09:50:28.092Z</updated>
-    
-    <content type="html"><![CDATA[<p>只需设置permalink即可：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://xaoxuu.com</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">https://xaoxuu.com/wiki/material-x/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>项目分类中的均为外部文章，<a href="/projects/">前往查看</a>。</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;只需设置permalink即可：&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;author:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;xaoxuu&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;avatar:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;url:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://xaoxuu.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;permalink:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;https://xaoxuu.com/wiki/material-x/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;项目分类中的均为外部文章，&lt;a href=&quot;/projects/&quot;&gt;前往查看&lt;/a&gt;。&lt;/p&gt;
     
     </summary>
     
@@ -141,23 +141,6 @@
     
     
       <category term="ss" scheme="http://wananyo.github.io/blog/tags/ss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>影院</title>
-    <link href="http://wananyo.github.io/cinema/index/"/>
-    <id>http://wananyo.github.io/cinema/index/</id>
-    <published>2018-12-29T16:00:00.000Z</published>
-    <updated>2019-12-05T09:50:28.071Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="个人收藏" scheme="http://wananyo.github.io/blog/categories/%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/"/>
-    
     
   </entry>
   
@@ -203,6 +186,23 @@
     
     
       <category term="教程" scheme="http://wananyo.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>影院</title>
+    <link href="http://wananyo.github.io/cinema/index/"/>
+    <id>http://wananyo.github.io/cinema/index/</id>
+    <published>2018-12-29T16:00:00.000Z</published>
+    <updated>2019-12-05T09:50:28.071Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="个人收藏" scheme="http://wananyo.github.io/blog/categories/%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/"/>
     
     
   </entry>
