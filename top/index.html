@@ -122,7 +122,7 @@
 <meta property="og:site_name" content="Ryan’s Blog">
 <meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-12-06T03:36:37.614Z">
+<meta property="og:updated_time" content="2019-12-06T05:04:13.781Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -368,7 +368,7 @@
         
           <div id="top"></div>
 
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
 <script>AV.initialize("19YOmJ7vxXgeKQtjIciISJA2-MdYXbMMI", "iTW1JuwlKTovLR2e6clq6jxr");</script>
 <script type="text/javascript">
 var time = 0,
@@ -386,12 +386,13 @@ query.find().then(function(t) {
         title = n.title,
         url = n.url;
         var i = emoji[Math.floor(Math.random() * emoji.length)];
-        content = "<div class='top-block'>【 " + i + " 热度：" + time + " ℃ 】&nbsp;&nbsp;<a href='https://xiaolee.icu" target="_blank" rel="noopener" + url + "'><span class='top-title'>" + title + "</span></a></div>",
+        var content = "<div class='top-block'>【 " + i + " 热度：" + time + " ℃ 】&nbsp;&nbsp;<a href='"+"https://xiaolee.icu"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font></div>";
         document.getElementById("top").innerHTML += content
     }
 },
 function(t) {
-    console.log("errorrrrr")
+    console.log("errorrrrr");
+    console.log(t);
 })
 </script>
 
@@ -568,7 +569,6 @@ function(t) {
     } 
 setInterval("createtime()",250);
 </script>
-<script>setLoadingBarProgress(80);</script>
 
 
 
