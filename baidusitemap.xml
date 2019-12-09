@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://wananyo.github.io/example/top/</loc>
+    <lastmod>2019-12-09</lastmod>
+  </url>  <url>
     <loc>http://wananyo.github.io/test/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
@@ -59,9 +62,6 @@
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>http://wananyo.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/</loc>
-    <lastmod>2019-12-05</lastmod>
-  </url>  <url>
-    <loc>http://wananyo.github.io/example/top/</loc>
     <lastmod>2019-12-05</lastmod>
   </url>  <url>
     <loc>http://wananyo.github.io/cinema/index/</loc>

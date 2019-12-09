@@ -2007,7 +2007,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50ee00;
+  background: #58a304;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -4477,4 +4477,16 @@ a.at {
   margin-left: 40% !important;
   background-color: #971212 !important;
   color: #fff !important;
+}
+.post-sticky-flag {
+  font-size: inherit;
+  float: left;
+  color: #000;
+  cursor: help;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.post-sticky-flag:hover {
+  color: #07b39b;
 }
