@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wananyo.github.io/java/index.html</loc>
+    
+    <lastmod>2019-12-30T10:55:18.134Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wananyo.github.io/%E5%95%8A%E5%95%8A%E5%95%8A/</loc>
+    
+    <lastmod>2019-12-10T07:34:15.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wananyo.github.io/top/index.html</loc>
     
     <lastmod>2019-12-10T05:39:56.618Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://wananyo.github.io/projects/index/</loc>
     
     <lastmod>2019-12-10T02:13:18.345Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/java/index.html</loc>
-    
-    <lastmod>2019-12-10T02:10:33.707Z</lastmod>
     
   </url>
   

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wananyo.github.io/"/>
-  <updated>2019-12-10T02:13:18.345Z</updated>
+  <updated>2019-12-10T07:34:15.640Z</updated>
   <id>http://wananyo.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>啊啊啊</title>
+    <link href="http://wananyo.github.io/%E5%95%8A%E5%95%8A%E5%95%8A/"/>
+    <id>http://wananyo.github.io/%E5%95%8A%E5%95%8A%E5%95%8A/</id>
+    <published>2019-12-10T07:34:15.000Z</published>
+    <updated>2019-12-10T07:34:15.640Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>javaTest</title>

@@ -2007,7 +2007,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d1ff8c;
+  background: #96c8ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3185,9 +3185,8 @@ hr {
   background-image: linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%) !important;
 }
 .footer {
-  background-image: linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%) !important;
+  background-image: linear-gradient(to right, #bf30ac 0, #0f9d58 100%) !important;
   background-color: #f3f2ee;
-  background: none !important;
 }
 .site-meta .site-title {
   font-size: 28px;
@@ -3196,6 +3195,11 @@ hr {
 }
 .post-toc .nav .active-current>a {
   color: #2da5da;
+}
+.busuanzi-value {
+  color: #5de5d9;
+  font-weight: 700;
+  font-size: 1.3em;
 }
 @media (min-width: 1000px) {
   .container .main-inner {
@@ -3214,9 +3218,8 @@ hr {
 }
 #days {
   display: block;
-  color: #07b39b;
+  color: #f5f5f5;
   font-size: 13px;
-  margin-top: 15px;
 }
 a {
   border-bottom: none;
@@ -3685,7 +3688,7 @@ li.nav-item.nav-level-6 {
   font-size: 16px;
 }
 .footer {
-  color: #222;
+  color: #f5f5f5;
   height: 80px;
   margin: auto;
   text-align: right;
