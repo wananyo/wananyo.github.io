@@ -375,15 +375,15 @@
 
 
           
-<!--PC和WAP自适应版-->
-<div id="SOHUCS" sid="请将此处替换为配置SourceID的语句" ></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = 'cyuCigLoR'; 
-var conf = 'prod_566c4384d266a2d86abcffb482c96d2e'; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) { 
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+ 
 
 
         </div>
@@ -693,33 +693,29 @@ show_date_time();
 
 
 
-
-
-
-
-
-
-
-
   
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="/js/src/Valine.min.js"></script>
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cyuCigLoR';
+      var conf = 'cc2a4e1d305b8b765c7450079792981d';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
   
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = '';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        av: AV, 
-        el: '#comments' ,
-        appId: '19YOmJ7vxXgeKQtjIciISJA2-MdYXbMMI',
-        appKey: 'iTW1JuwlKTovLR2e6clq6jxr',
-        placeholder: '点击此处填写昵称和邮箱才能留言噢~',
-    });
-  </script>
+
+
+
+
+
+
+
+
+
 
 
 
