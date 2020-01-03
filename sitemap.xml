@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wananyo.github.io/top/index.html</loc>
+    
+    <lastmod>2020-01-03T05:55:18.557Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wananyo.github.io/photos/index.html</loc>
     
-    <lastmod>2020-01-03T05:51:26.661Z</lastmod>
+    <lastmod>2020-01-03T05:53:21.869Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://wananyo.github.io/%E5%95%8A%E5%95%8A%E5%95%8A/</loc>
     
     <lastmod>2019-12-10T07:34:15.640Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/top/index.html</loc>
-    
-    <lastmod>2019-12-10T05:39:56.618Z</lastmod>
     
   </url>
   
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/blog/categories/index.html</loc>
+    <loc>http://wananyo.github.io/blog/tags/index.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/blog/tags/index.html</loc>
+    <loc>http://wananyo.github.io/blog/categories/index.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
