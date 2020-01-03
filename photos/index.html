@@ -131,8 +131,11 @@
 <meta property="og:site_name" content="Ryan’s Blog">
 <meta property="og:description" content=".posts-expand .post-body img{         padding: 1px;     }      .footer{         display: none !important;     }       &#x2F;*不展示底部*&#x2F;      .footer-inner{          display: none !important;      }">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-01-03T03:46:22.730Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;wananyo.github.io&#x2F;photos&#x2F;+xmllink+">
+<meta property="og:image" content="http:&#x2F;&#x2F;wananyo.github.io&#x2F;photos&#x2F;+xmllink+">
+<meta property="og:updated_time" content="2020-01-03T05:17:31.578Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;wananyo.github.io&#x2F;photos&#x2F;+xmllink+">
 
 
 
@@ -635,17 +638,19 @@ function loadXMLDoc(xmlUrl)
     return xmlDoc; 
 }
 
-xmlDoc=loadXMLDoc("https://cherlean-1301053611.cos.ap-shanghai.myqcloud.com");
+xmlDoc=load//存储桶的访问域名（基础配置-访问域名）
+var xmllink="https://blogimg-1301053611.cos.ap-shanghai.myqcloud.com"
 
-var urls = xmlDoc.getElementsByTagName('Key');
-var date = xmlDoc.getElementsByTagName('LastModified');
-var wid = 350;
-var showNum = 21; //每个相册一次展示多少照片
-if ((window.innerWidth) > 1200) { wid = (window.innerWidth * 3) / 18;}
-var box = document.getElementById('box');
-var i = 0;
+xmlDoc=loadXMLDoc(xmllink);
+var urls=xmlDoc.getElementsByTagName('Key');
+var date=xmlDoc.getElementsByTagName('LastModified');
+var wid=250;
+var showNum=12; //每个相册一次展示多少照片
+if ((window.innerWidth)>1200) {wid=(window.innerWidth*3)/18;}
+var box=document.getElementById('box');
+var i=0;
 
-var content = new Array();
+var content=new Array();
 var tmp=0;
 var kkk=-1;
 for (var t = 0; t < urls.length ; t++) {
@@ -666,52 +671,45 @@ for (var i = 0; i < content.length; i++) {
     var conBox=document.createElement("div");
     conBox.id='conBox'+i;
     box.appendChild(conBox);
-    var item=document.createElement("div");
     var title=content[i][0].url;
-    item.innerHTML="<button class=title style=background:url(https://cherlean-1301053611.cos.ap-shanghai.myqcloud.com/" + title + "封面.jpg"+");background-repeat:no-repeat;><span style=display:inline;><strong style=color:#f0f3f6; >" + title.substring(0,title.length - 1) + "</strong></span></button>";
-    conBox.appendChild(item);
-
-        for (var j = 1; j < content[i].length && j < showNum+1; j++) {
-            var con=content[i][j].url;
+    for (var j = 1; j < content[i].length && j < showNum+1; j++) {
+        var con=content[i][j].url;
         var item=document.createElement("li");
-        if(con.substring(0,con.length-4) != "封面"){
-            item.innerHTML="<div class=imgbox id=imgbox style=height:"+wid+"px;><img class=imgitem src=https://cherlean-1301053611.cos.ap-shanghai.myqcloud.com/" + title + con +" alt=" + con + "></div><span>" + con.substring(0,con.length-4);
-            conBox.appendChild(item);
-        }
+        item.innerHTML="<div class=imgbox id=imgbox style=height:"+wid+"px;><img class=imgitem src="+xmllink+'/'+title+con+" alt="+con+"></div>";
+        conBox.appendChild(item);
     }
     if(content[i].length > showNum){
         var moreItem=document.createElement("button");
-        moreItem.className = "btn-more-posts";
-        moreItem.id = "more" + i;
-        moreItem.value = showNum + 1;
-        let cur = i;
-        moreItem.onclick = function (){
+        moreItem.className="btn-more-posts";
+        moreItem.id="more"+i;
+        moreItem.value=showNum+1;
+        let cur=i;
+        moreItem.onclick= function (){
             moreClick(this,cur,content[cur],content[cur][0].url);
         }
-        moreItem.innerHTML="<span style=display:inline;><strong style=color:#f0f3f6;>加载更多</strong></span>";
+        moreItem.innerHTML="<span style=display:inline;>加载更多</span>";
         conBox.appendChild(moreItem);
     }
 }
 
 function moreClick(obj,cur,cont,title){
-    var parent = obj.parentNode;
+    var parent=obj.parentNode;
     parent.removeChild(obj);
     var j=obj.value;
     var begin=j;
     for ( ; j < cont.length && j < Number(showNum) + Number(begin); j++) {
+        console.log( Number(showNum) + Number(begin));
         var con=cont[j].url;
         var item=document.createElement("li");
-        item.innerHTML="<div class=imgbox id=imgbox style=height:"+wid+"px;><img class=imgitem src=https://cherlean-1301053611.cos.ap-shanghai.myqcloud.com/"+title+con+" alt="+con+"></div><span>"+con.substring(0,con.length-4);
+        item.innerHTML="<div class=imgbox id=imgbox style=height:"+wid+"px;><img class=imgitem src="+xmllink+'/'+title+con+" alt="+con+"></div>";
         parent.appendChild(item);
-        var v=item.getElementsByTagName('img');
-        v[0].id=imgid;
-        imgid++;
     }
     if(cont.length > j){
         obj.value=j;
         parent.appendChild(obj);
     }
 }
+
 </script>
         
       </div>
