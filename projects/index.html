@@ -2,8 +2,10 @@
 
 
 
+  
 
-<html class="theme-next mist" lang="zh-Hans,zh-CN,en,zh-HK,zh-TW,default">
+
+<html class="theme-next mist use-motion" lang="zh-Hans,zh-CN,en,zh-HK,zh-TW,default">
 <head>
   <meta name="google-site-verification" content="-YPbgjltFVFljoCm04Ktk0m38A8CkQxpifuKVZXtawA" />
   <mate name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
@@ -115,12 +117,12 @@
 
 
 
-<meta name="description" content="本站主要是分享一些Java学习知识点总结和笔记，欢迎各位来访！">
+<meta name="description" content="document.querySelectorAll(&amp;apos;.github-emoji&amp;apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&amp;apos;img&amp;apos;);             img.style">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ryan’s Blog">
 <meta property="og:url" content="http:&#x2F;&#x2F;cherlean.com&#x2F;projects&#x2F;index.html">
 <meta property="og:site_name" content="Ryan’s Blog">
-<meta property="og:description" content="本站主要是分享一些Java学习知识点总结和笔记，欢迎各位来访！">
+<meta property="og:description" content="document.querySelectorAll(&amp;apos;.github-emoji&amp;apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&amp;apos;img&amp;apos;);             img.style">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-09-09T06:31:42.000Z">
 <meta name="twitter:card" content="summary">
@@ -136,7 +138,7 @@
     sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -362,7 +364,25 @@
       <div class="post-body">
         
         
-          
+          <script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
       </div>
       

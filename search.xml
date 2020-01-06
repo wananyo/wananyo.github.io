@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020年计划</title>
+    <title>2019年度总结，2020年度计划</title>
     <url>/example/index/</url>
     <content><![CDATA[<p>
     <a href="https://hexo-blog-1301053611.cos.ap-shanghai.myqcloud.com/ArticleMaterial-2020%E8%AE%A1%E5%88%92/2020.jpg" target="_blank" class="fancybox fancybox.image" rel="group noopener"><img src="https://hexo-blog-1301053611.cos.ap-shanghai.myqcloud.com/ArticleMaterial-2020%E8%AE%A1%E5%88%92/2020.jpg"></a>
 </p>
 
-<a id="more"></a>]]></content>
+<a id="more"></a>
+
+<blockquote class="blockquote-center"><p>保持乐观<br>热爱生活<br>人生短短几十年<br>爱别人的同时<br>也请善待自己</p>
+</blockquote>
+<br>
+<h3 id="2019年总结">
+    <a href="#2019年总结" class="headerlink" title="2019年总结">2019年总结</a>
+</h3>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019年是我来上海工作的第二年，2018年3月来到上海，第一份工作是在一家自动化工程公司软件研发部担任Java开发。刚去的时候研发部刚刚成立不到半年，是个小团队，只有两个搞Java的同事，比我早入职一周，经理对我们很好，每入职一个同事就请我们在酒店聚一聚，还经常在同事家里聚餐（同事厨艺还真不错，hhh）。后来陆陆续续团队慢慢的壮大了。 项目完成后我们就开始去全国各地的客户那里部署调试，开发也就只是一些接口开发对接，渐渐地感觉技术上进步非常缓慢。我对自己的规划还是先沉淀几年技术，再转管理。没办法，只能考虑跳槽。现在入职一家做虹膜识别的公司，对于现在得我来说技术栈还是不错的，希望可以静下心踏踏实实的积累。
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很早之前就想着做一个博客，之前没有接触过这种博客生成方式，还想着用Java+Vue+Mysql写一个带后台管理的博客。前后台框架、数据库表都搭建好了，后来经常出差加班，就耽搁了。最近恰好了解到hexo、Hugo、WordPress等博客系统，Hugo以强劲性能称霸的时代环境之下，Hexo虽然性能差点，但是也是基于动态语言Node开发，相比于Jekyll还是有很大提升的，不过对我来说，最主要还是Hexo的生态中各种组件和模板比较丰富，对我这种对UI要求严格的人来说，Hexo是我不能拒绝的。刚入职要熟悉的东西比较多，利用零零散散的时间将这个博客搭建起来了。目前还有一些功能没有完善，以后慢慢来吧。<span id="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f31d.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31d.png?v8">🌝</span>
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生活方面，酸甜苦辣都有。如果能重来一遍，或许我会有另外的选择...算了，过去的都过去了，还是勇敢的迎接新生活！我就是打不死的小强，也不缺重头再来的勇气！
+</p>
+
+<h3 id="2020年计划">
+    <a href="#2020年计划" class="headerlink" title="2020年计划">2020年计划</a>
+</h3>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于博客，我有一个初步的计划，先把基本功能实现，然后慢慢的把我的笔记、Demo都移到博客来。每学习一个技术都把实现过程、对技术实现的理解等都总结出来。本菜鸟现在还没能力出教程之类的。<span id="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f31a.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31a.png?v8">🌚</span>
+</p>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p>
+        <strong>需强化技术栈：</strong>
+    </p><ol>
+        <li>Spring</li>
+        <li>SpringCloud</li>
+        <li>ActiveMQ、RabbitMQ</li>
+        <li>Nginx</li>
+        <li>Linux</li>
+        <li>Docker</li>
+        <li>常用的几种设计模式</li>
+    </ol>
+<p></p>
+<br>
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很多技术就我现在而言只停留在会用阶段，工作原理都不清楚，这样过段时间就忘记了，所以这些技术都还需要再深入一点。
+</p>
+<hr>
+<p>
+    <strong>生活：</strong>
+    </p><ol>
+        <li>继续学习新菜品</li>
+        <li>再买一台相机</li>
+        <li>去泰国或塞尔维亚旅游</li>
+        <li>坚持健身、护肤</li>
+        <li>培养一个可以受用终身的爱好</li>
+    </ol>
+<p></p>
+
+<p>
+    <a href="https://hexo-blog-1301053611.cos.ap-shanghai.myqcloud.com/ArticleMaterial-2020%E8%AE%A1%E5%88%92/newyear.gif" target="_blank" class="fancybox fancybox.image" rel="group noopener"><img src="https://hexo-blog-1301053611.cos.ap-shanghai.myqcloud.com/ArticleMaterial-2020%E8%AE%A1%E5%88%92/newyear.gif"></a>
+</p>
+<p>
+    希望我能愉快的度过这个本命年，红内裤都买好了！最后，祝大家新年快乐,早日暴富！
+</p>
+<br><br><br><br><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
       <tags>
         <tag>随笔</tag>
       </tags>

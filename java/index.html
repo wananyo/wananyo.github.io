@@ -2,8 +2,10 @@
 
 
 
+  
 
-<html class="theme-next mist" lang="zh-Hans,zh-CN,en,zh-HK,zh-TW,default">
+
+<html class="theme-next mist use-motion" lang="zh-Hans,zh-CN,en,zh-HK,zh-TW,default">
 <head>
   <meta name="google-site-verification" content="-YPbgjltFVFljoCm04Ktk0m38A8CkQxpifuKVZXtawA" />
   <mate name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
@@ -115,13 +117,13 @@
 
 
 
-<meta name="description" content="测试测试测试测试测试测试 &amp;lt;– more –&amp;gt; 测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试">
+<meta name="description" content="测试测试测试测试测试测试 &amp;lt;– more –&amp;gt; 测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试          document.querySelectorAll(&amp;apos;.github-emoji&amp;apos;)           .forEach(el =&amp;gt; {">
 <meta name="keywords" content="java">
 <meta property="og:type" content="website">
 <meta property="og:title" content="javaTest">
 <meta property="og:url" content="http:&#x2F;&#x2F;cherlean.com&#x2F;java&#x2F;index.html">
 <meta property="og:site_name" content="Ryan’s Blog">
-<meta property="og:description" content="测试测试测试测试测试测试 &amp;lt;– more –&amp;gt; 测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试">
+<meta property="og:description" content="测试测试测试测试测试测试 &amp;lt;– more –&amp;gt; 测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试          document.querySelectorAll(&amp;apos;.github-emoji&amp;apos;)           .forEach(el =&amp;gt; {">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-12-30T10:55:18.134Z">
 <meta name="twitter:card" content="summary">
@@ -137,7 +139,7 @@
     sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -366,7 +368,25 @@
           <p>测试测试测试测试测试测试</p>
 <p>&lt;– more –&gt;</p>
 <p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试<br>测试测试测试测试测试测试<br>测试测试测试测试测试测试测试测试测试<br>测试测试测试</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
       </div>
       

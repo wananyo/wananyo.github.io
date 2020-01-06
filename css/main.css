@@ -2007,7 +2007,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a2dd5e;
+  background: #52e0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3504,7 +3504,7 @@ div.post-meta {
   top: 10px;
   width: 18px;
   height: 18px;
-  content: "🌈";
+  content: "🔍";
   font-size: 18px;
   line-height: 18px;
   margin-right: 16px;
@@ -3520,11 +3520,10 @@ div.post-meta {
   margin-right: 16px;
 }
 .posts-expand .post-body h3:before {
-  display: none;
   top: 10px;
   width: 18px;
   height: 18px;
-  content: "🔍";
+  content: "⛅";
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 18px;
   line-height: 18px;
@@ -4492,4 +4491,13 @@ a.at {
 }
 .post-sticky-flag:hover {
   color: #07b39b;
+}
+img#github-emoji {
+  margin: 0px;
+  padding: 0px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  border: none;
+  cursor: text;
+  box-shadow: none;
 }
