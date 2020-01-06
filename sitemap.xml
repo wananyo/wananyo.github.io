@@ -2,105 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wananyo.github.io/photos/index.html</loc>
+    <loc>http://cherlean.com/example/index/</loc>
+    
+    <lastmod>2020-01-06T06:50:59.077Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherlean.com/links/index.html</loc>
+    
+    <lastmod>2020-01-06T05:33:47.042Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherlean.com/friends/index.html</loc>
+    
+    <lastmod>2020-01-06T05:23:20.649Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherlean.com/messageboard/index.html</loc>
+    
+    <lastmod>2020-01-06T03:42:20.914Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherlean.com/photos/index.html</loc>
     
     <lastmod>2020-01-03T10:47:33.540Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/top/index.html</loc>
+    <loc>http://cherlean.com/top/index.html</loc>
     
     <lastmod>2020-01-03T05:55:18.557Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/java/index.html</loc>
+    <loc>http://cherlean.com/java/index.html</loc>
     
     <lastmod>2019-12-30T10:55:18.134Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/%E5%95%8A%E5%95%8A%E5%95%8A/</loc>
-    
-    <lastmod>2019-12-10T07:34:15.640Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/projects/index/</loc>
-    
-    <lastmod>2019-12-10T02:13:18.345Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/cinema/index.html</loc>
-    
-    <lastmod>2019-12-05T09:50:28.238Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/cinema/index/</loc>
-    
-    <lastmod>2019-12-05T09:50:28.071Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/links/index.html</loc>
-    
-    <lastmod>2019-12-05T07:49:26.991Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/about/index.html</loc>
+    <loc>http://cherlean.com/about/index.html</loc>
     
     <lastmod>2019-11-27T07:15:21.047Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/friends/index.html</loc>
-    
-    <lastmod>2019-11-26T13:57:02.994Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wananyo.github.io/tellme/index.html</loc>
+    <loc>http://cherlean.com/tellme/index.html</loc>
     
     <lastmod>2019-11-25T07:55:45.342Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/404.html</loc>
+    <loc>http://cherlean.com/404.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/projects/index.html</loc>
+    <loc>http://cherlean.com/projects/index.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/blog/categories/index.html</loc>
+    <loc>http://cherlean.com/blog/categories/index.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wananyo.github.io/blog/tags/index.html</loc>
+    <loc>http://cherlean.com/blog/tags/index.html</loc>
     
     <lastmod>2019-09-09T06:31:42.000Z</lastmod>
     
